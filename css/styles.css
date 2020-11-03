@@ -7,14 +7,21 @@ hr {
     background-color: gainsboro;
 }
 
-
-/*circle {
-    border-radius: 50%;
-    background-color: grey;
-}*/
-
 ul {
     list-style: none;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #6E6E6E;
+    width: 18vw;
+    height: 18vw;
+}
+
+.wwd-img {
+    padding-top: 13%;
+    width: 80%;
+    height: 80%;
 }
 
 .dots li::before {
