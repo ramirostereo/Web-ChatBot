@@ -102,8 +102,16 @@ nav {
 }
 
 .description {
-    color: #02466c;
+    color: #ffffff;
     font-weight: bold;
+}
+
+.fondo {
+    background-color: #6E6E6E;
+}
+
+.textora {
+    color: orangered;
 }
 
 #platforms {
