@@ -1,0 +1,167 @@
+body {
+    overflow-x: hidden;
+}
+
+hr {
+    width: 100%;
+    background-color: gainsboro;
+}
+
+
+/*circle {
+    border-radius: 50%;
+    background-color: grey;
+}*/
+
+ul {
+    list-style: none;
+}
+
+.dots li::before {
+    content: "•";
+    color: #00a988;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+nav {
+    border-color: #00a988;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.lex-logo {
+    width: 204px;
+    height: 48px;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    padding-top: 4px;
+}
+
+.icon-bar {
+    transition: opacity, transform;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+    display: block;
+    width: 27px;
+    height: 4px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    background-color: #014e7a;
+}
+
+.nav-link {
+    transform: translatex(10%);
+    margin: 20px;
+}
+
+#textoMain {
+    padding-left: 15vw;
+}
+
+#home {
+    position: relative;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+}
+
+#home h2 {
+    color: #014e7a;
+}
+
+#cloud {
+    background-color: #f3f3f3;
+    position: relative;
+    padding-top: 1%;
+    width: 100%;
+}
+
+.card-body {
+    color: #02466c;
+    border-right: 2.5px solid #00a988;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+}
+
+.text-card {
+    padding-left: 2em;
+}
+
+.description {
+    color: #02466c;
+    font-weight: bold;
+}
+
+#platforms {
+    background-color: #5c5c5c;
+}
+
+#platforms h2 {
+    color: #ffffff;
+}
+
+#services {
+    color: white;
+    background-color: #027fc7;
+}
+
+#contact {
+    background-color: #014e7a;
+    color: white;
+}
+
+#comments {
+    height: 148px;
+}
+
+#submit {
+    width: 175px;
+    background-color: #00a988;
+    border-radius: 0px;
+    border-style: none;
+}
+
+#contactbnt {
+    width: 100px;
+    background-color: #00a988;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.imagenIzq {
+    float: left;
+    padding-right: 20px;
+}
+
+.imagenCloud {
+    padding-right: 150px;
+}
+
+.card-group b>p {
+    font-size: large;
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1682px) {
+    #textoMain {
+        padding-left: 300px;
+    }
+}
+
+@media screen and (min-width: 1682px) and (max-width: 1810px) {
+    #textoMain {
+        padding-left: 400px;
+    }
+}
+
+@media screen and (min-width: 1810px) and (max-width: 1920px) {
+    #textoMain {
+        padding-left: 450px;
+    }
+}
