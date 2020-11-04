@@ -1,3 +1,55 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserratbold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Robotobold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+
+/*ejemplo de como llmar a la fuente */
+
+.fuente {
+    font-family: "Roboto";
+    font-size: 80%;
+    color: black;
+}
+
+.fuentewwd {
+    font-family: "Montserratbold";
+    font-size: 150%;
+}
+
+.fuentemon {
+    font-family: "Montserrat";
+    font-size: 150%;
+}
+
+.fuentemon2 {
+    font-family: "Montserrat";
+    font-size: 100%;
+}
+
+.fuentemon3 {
+    font-family: "Montserrat";
+    font-size: 90%;
+}
+
+
+/*termina ejemplo*/
+
 body {
     overflow-x: hidden;
 }
@@ -16,6 +68,7 @@ ul {
     background-color: #6E6E6E;
     width: 18vw;
     height: 18vw;
+    box-shadow: 0px 0px 49px -9px rgba(0, 0, 0, 0.95);
 }
 
 .wwd-img {
@@ -61,7 +114,7 @@ nav {
     height: 4px;
     margin-bottom: 4px;
     border-radius: 5px;
-    background-color: #014e7a;
+    /* background-color: #014e7a;*/
 }
 
 .nav-link {
@@ -79,9 +132,10 @@ nav {
     padding-bottom: 0vw;
 }
 
-#home h2 {
-    color: #014e7a;
-}
+
+/* #home h2 {
+     color: #014e7a;
+}*/
 
 #cloud {
     background-color: #f3f3f3;
@@ -91,7 +145,7 @@ nav {
 }
 
 .card-body {
-    color: #02466c;
+    /*    color: #02466c;*/
     border-right: 2.5px solid #00a988;
     margin-top: 0.8%;
     margin-bottom: 0.8%;
@@ -110,8 +164,12 @@ nav {
     background-color: #6E6E6E;
 }
 
+.textw {
+    color: white
+}
+
 .textora {
-    color: orangered;
+    color: #febd4f;
 }
 
 #platforms {
