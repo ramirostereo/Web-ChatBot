@@ -35,6 +35,7 @@
 .fuentewwd2 {
     font-family: "Montserratbold";
     font-size: 90%;
+    padding-top: 10px;
 }
 
 .fuentemon {
@@ -175,6 +176,7 @@ nav {
 
 .textora {
     color: #febd4f;
+    font-weight: bold;
 }
 
 #platforms {
