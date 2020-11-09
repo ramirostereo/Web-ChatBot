@@ -45,6 +45,11 @@
     font-weight: bold;
 }
 
+.iconok {
+    height: 8%;
+    width: 8%;
+}
+
 .fuentemon2 {
     font-family: "Montserrat";
     font-size: 100%;
@@ -149,6 +154,10 @@ nav {
      color: #014e7a;
 }*/
 
+.fondochat {
+    background-color: #f3f3f3;
+}
+
 #cloud {
     background-color: #f3f3f3;
     position: relative;
@@ -238,6 +247,9 @@ nav {
     #textoMain {
         padding-left: 300px;
     }
+    body {
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (min-width: 1682px) and (max-width: 1810px) {
@@ -254,10 +266,10 @@ nav {
 
 @media screen and (min-width: 300px) and (max-width: 575px) {
     .divCirculos {
-        margin-left: 34vw;
+        margin-left: 40vw;
     }
     .divCirculosAbajo {
-        margin-left: 37vw;
+        margin-left: 40vw;
     }
     #imagenesValues .img-fluid {
         width: 17vw;
