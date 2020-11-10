@@ -39,6 +39,19 @@
     margin-right: 3vw;
 }
 
+.opacidad {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.opacidad1 {
+    font-weight: bold;
+    color: #000000;
+    ;
+}
+
 .fuentemon {
     font-family: "Montserrat";
     font-size: 150%;
@@ -203,7 +216,6 @@ nav {
 }
 
 #services {
-    color: white;
     background-color: #027fc7;
 }
 
