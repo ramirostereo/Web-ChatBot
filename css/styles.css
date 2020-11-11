@@ -61,6 +61,7 @@
 .iconok {
     height: 8%;
     width: 8%;
+    
 }
 
 .fuentemon2 {
@@ -75,10 +76,10 @@
 
 
 /*termina ejemplo*/
-
-body {
+body{
     overflow-x: hidden;
 }
+
 
 hr {
     width: 100%;
@@ -107,16 +108,8 @@ ul {
     height: 80%;
 }
 
-.dots li::before {
-    content: "•";
-    color: #00a988;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em
-}
-
 nav {
-    border-color: #00a988;
+    border-color: #014e7a;
     border-style: solid;
     border-width: 1px;
 }
@@ -144,7 +137,7 @@ nav {
     height: 4px;
     margin-bottom: 4px;
     border-radius: 5px;
-    /* background-color: #014e7a;*/
+     background-color: #febd4f;
 }
 
 .nav-link {
@@ -156,11 +149,7 @@ nav {
     padding-left: 15vw;
 }
 
-#home {
-    position: relative;
-    padding-top: 0vw;
-    padding-bottom: 0vw;
-}
+
 
 
 /* #home h2 {
@@ -259,9 +248,6 @@ nav {
     #textoMain {
         padding-left: 300px;
     }
-    body {
-        overflow-x: hidden;
-    }
 }
 
 @media screen and (min-width: 1682px) and (max-width: 1810px) {
@@ -270,7 +256,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 1810px) and (max-width: 1920px) {
+@media screen and (min-width: 1810px) and (max-width: 1930px) {
     #textoMain {
         padding-left: 450px;
     }
@@ -287,7 +273,24 @@ nav {
         width: 17vw;
         height: 17vw;
     }
+    .valores{
+        text-align: center;
+    }
+    .description1{
+        margin-left: 20px;
+    }
+
 }
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+
+    .description1{
+        margin-left: -15px;
+        font-size: small;
+    }
+    
+}
+
 
 @media screen and (min-width: 800px) and (max-width: 1800px) {
     .divCirculos {
