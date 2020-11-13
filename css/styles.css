@@ -61,7 +61,6 @@
 .iconok {
     height: 8%;
     width: 8%;
-    
 }
 
 .fuentemon2 {
@@ -76,10 +75,10 @@
 
 
 /*termina ejemplo*/
-body{
+
+body {
     overflow-x: hidden;
 }
-
 
 hr {
     width: 100%;
@@ -137,7 +136,7 @@ nav {
     height: 4px;
     margin-bottom: 4px;
     border-radius: 5px;
-     background-color: #febd4f;
+    background-color: #febd4f;
 }
 
 .nav-link {
@@ -148,8 +147,6 @@ nav {
 #textoMain {
     padding-left: 15vw;
 }
-
-
 
 
 /* #home h2 {
@@ -202,15 +199,6 @@ nav {
 
 #platforms h2 {
     color: #ffffff;
-}
-
-#services {
-    background-color: #027fc7;
-}
-
-#contact {
-    background-color: #014e7a;
-    color: white;
 }
 
 #comments {
@@ -273,24 +261,20 @@ nav {
         width: 17vw;
         height: 17vw;
     }
-    .valores{
+    .valores {
         text-align: center;
     }
-    .description1{
+    .description1 {
         margin-left: 20px;
     }
-
 }
 
 @media screen and (min-width: 575px) and (max-width: 768px) {
-
-    .description1{
+    .description1 {
         margin-left: -15px;
         font-size: small;
     }
-    
 }
-
 
 @media screen and (min-width: 800px) and (max-width: 1800px) {
     .divCirculos {
